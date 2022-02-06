@@ -1,4 +1,7 @@
 @import 'components/alerts.css';
+@import 'components/avatar.css';
+@import 'components/badge.css';
+@import 'components/button.css';
 @import 'utility/reset.css';
 @import 'utility/color.css';
 @import 'utility/font.css';

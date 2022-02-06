@@ -1,0 +1,27 @@
+
+.alert{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0rem 1rem;
+  background-color: var(--prim-col);
+  width:30rem;
+  border-radius: 0.5rem;
+  color: var(--sec-col);
+  box-shadow: 1px 1px 3px 1px lightgrey;
+  box-sizing: border-box;
+
+}
+.alert-close{
+  justify-content: space-between;
+}
+.alert-close>span:hover{
+  cursor:pointer;
+  opacity: 0.5;
+}
+
+.alert-bordered{
+
+  border: solid 3px ;
+  background-color: transparent;
+}
